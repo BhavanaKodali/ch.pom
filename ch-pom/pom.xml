@@ -13,17 +13,17 @@
 <distributionManagement>
   <repository>
     <id>releases</id>
-    <url>http://localhost:8080/nexus-2.11.2-06/content/repositories/releases</url>
+    <url>http://localhost:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
-    <url>http://localhost:8080/nexus-2.11.2-06/content/repositories/snapshots</url>
+    <url>http://localhost:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 <repositories>
     <repository>
         <id>releases</id>
-        <url>http://localhost:8080/nexus-2.11.2-06/content/groups/public/</url>
+        <url>http://localhost:8081/repository/maven-public/</url>
         <releases>
 <enabled>true</enabled>
 </releases>
@@ -36,7 +36,7 @@
 <pluginRepositories>
 <pluginRepository>
 <id>releases</id>
-        <url>http://localhost:8080/nexus-2.11.2-06/content/groups/public/</url>
+        <url>http://localhost:8081/repository/maven-public/</url>
         <releases>
 <enabled>true</enabled>
 </releases>
